@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');</style>
+  <title>Giphy Party!</title>
+</head>
+
+<body style="display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-color: darkslategray;">
+
+  <h1 style="color: floralwhite;
+  font-family: 'Abel', sans-serif;
+  font-size: 56px;">GIPHY PARTY</h1>
+
+  <form id="form">
+    <input id="search-input" type="text" placeholder="keyword search">
+    <input id="submit-button" type="submit">
+    <button id="clear-button" type="reset">clear images</button>
+    
+      <ul id="gif-list"></ul>
+    
+  </form>
+
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.js"></script>
+<script src="giphy.js"></script>
+</body>
+
+</html>
+
